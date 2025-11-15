@@ -1,0 +1,33 @@
+2025-10-31 01:58:25,007 | INFO | 🚀 Starting retraining process...
+2025-10-31 01:58:25,056 | INFO | ✅ Loaded dataset: ../data/cleaned_data.csv | shape=(7043, 31)
+2025-10-31 01:58:25,060 | ERROR | Missing required columns after auto-fix: ['gender_binary', 'Partner_binary', 'Dependents_binary', 'PhoneService_binary', 'PaperlessBilling_binary', 'Churn_binary']
+2025-10-31 06:53:09,438 | INFO | 🚀 Starting retraining process...
+2025-10-31 06:53:09,441 | ERROR | Data file not found: data/cleaned_data.csv
+2025-10-31 06:54:56,812 | INFO | 🚀 Starting retraining process...
+2025-10-31 06:54:56,875 | INFO | ✅ Loaded dataset with shape (7043, 31)
+2025-10-31 06:54:56,883 | ERROR | Missing columns even after auto-fix: ['gender_binary', 'Partner_binary', 'Dependents_binary', 'PhoneService_binary', 'PaperlessBilling_binary', 'Churn_binary']
+2025-10-31 08:07:52,184 | INFO | 🚀 Starting retraining process...
+2025-10-31 08:07:52,456 | INFO | ✅ Loaded dataset: ../data/cleaned_data.csv | shape=(7043, 31)
+2025-10-31 08:07:52,498 | INFO | 🧩 Mapped dataset columns to expected binary features where possible.
+2025-10-31 08:07:52,895 | INFO | ✅ Model trained: Accuracy=0.7906, ROC_AUC=0.8238497507039706
+2025-10-31 08:07:52,911 | INFO | 🔁 Backed up ../models/scaler.pkl -> ../models/scaler.pkl.backup.20251031_050752
+2025-10-31 08:07:52,920 | INFO | ✅ Retraining completed successfully.
+2025-10-31 08:07:52,920 | INFO | Model: ../models/model.pkl, Scaler: ../models/scaler.pkl, Meta: ../models/meta.json
+2025-10-31 08:20:21,373 | INFO | 🚀 Starting retraining process...
+2025-10-31 08:20:21,524 | INFO | ✅ Loaded dataset: ../data/cleaned_data.csv | shape=(7043, 31)
+2025-10-31 08:20:21,562 | INFO | 🧩 Mapped dataset columns to expected binary features where possible.
+2025-10-31 08:20:22,009 | INFO | ✅ Model trained: Accuracy=0.7906, ROC_AUC=0.8238497507039706
+2025-10-31 08:20:22,012 | INFO | 🔁 Backed up ../models/model.pkl -> ../models/model.pkl.backup.20251031_052022
+2025-10-31 08:20:22,013 | INFO | 🔁 Backed up ../models/scaler.pkl -> ../models/scaler.pkl.backup.20251031_052022
+2025-10-31 08:20:22,014 | INFO | 🔁 Backed up ../models/meta.json -> ../models/meta.json.backup.20251031_052022
+2025-10-31 08:20:22,036 | INFO | ✅ Retraining completed successfully.
+2025-10-31 08:20:22,037 | INFO | Model: ../models/model.pkl, Scaler: ../models/scaler.pkl, Meta: ../models/meta.json
+2025-10-31 18:33:36,700 | INFO | 🚀 Starting retraining process...
+2025-10-31 18:33:36,779 | INFO | ✅ Loaded dataset: ../data/cleaned_data.csv | shape=(7043, 31)
+2025-10-31 18:33:36,831 | INFO | 🧩 Mapped dataset columns to expected binary features where possible.
+2025-10-31 18:33:37,174 | INFO | ✅ Model trained: Accuracy=0.7906, ROC_AUC=0.8238497507039706
+2025-10-31 18:33:37,179 | INFO | 🔁 Backed up ../models/model.pkl -> ../models/model.pkl.backup.20251031_153337
+2025-10-31 18:33:37,180 | INFO | 🔁 Backed up ../models/scaler.pkl -> ../models/scaler.pkl.backup.20251031_153337
+2025-10-31 18:33:37,183 | INFO | 🔁 Backed up ../models/meta.json -> ../models/meta.json.backup.20251031_153337
+2025-10-31 18:33:37,191 | INFO | ✅ Retraining completed successfully.
+2025-10-31 18:33:37,192 | INFO | Model: ../models/model.pkl, Scaler: ../models/scaler.pkl, Meta: ../models/meta.json

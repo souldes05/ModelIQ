@@ -1,0 +1,19 @@
+{
+    "feature_names": [
+        "gender_binary",
+        "SeniorCitizen",
+        "Partner_binary",
+        "Dependents_binary",
+        "tenure",
+        "PhoneService_binary",
+        "PaperlessBilling_binary",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "target": "Churn_binary",
+    "model_type": "LogisticRegression",
+    "accuracy": 0.7906316536550745,
+    "roc_auc": 0.8238497507039706,
+    "n_samples": 7043,
+    "trained_at_utc": "2025-10-31T05:20:22.035560"
+}

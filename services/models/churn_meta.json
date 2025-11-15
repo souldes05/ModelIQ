@@ -1,0 +1,13 @@
+{
+    "feature_columns": [
+        "gender_binary",
+        "SeniorCitizen",
+        "Partner_binary",
+        "Dependents_binary",
+        "tenure",
+        "PhoneService_binary",
+        "PaperlessBilling_binary",
+        "MonthlyCharges",
+        "TotalCharges"
+    ]
+}

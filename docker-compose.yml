@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: modeliq-db
+    environment:
+      POSTGRES_DB: modeliq
+      POSTGRES_USER: modeliq_user
+      POSTGRES_PASSWORD: supersecret
+    volumes:
+      - modeliq_db_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  modeliq-app:
+    image: modeliq-app:latest
+    container_name: modeliq-app-container
+    depends_on:
+      - postgres
+    ports:
+      - "0.0.0.0:8000:8000"  # FastAPI accessible externally
+      - "0.0.0.0:8501:8501"  # Streamlit accessible externally
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=postgresql://modeliq_user:supersecret@postgres:5432/modeliq
+    volumes:
+      - ./logs:/app/logs   # Persist logs on host machine
+
+volumes:
+  modeliq_db_data:

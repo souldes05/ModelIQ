@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "gender_binary": 1,
+      "SeniorCitizen": 0,
+      "Partner_binary": 1,
+      "Dependents_binary": 0,
+      "tenure": 12,
+      "PhoneService_binary": 1,
+      "PaperlessBilling_binary": 0,
+      "MonthlyCharges": 56.7,
+      "TotalCharges": 700.5
+    },
+    {
+      "gender_binary": 0,
+      "SeniorCitizen": 1,
+      "Partner_binary": 0,
+      "Dependents_binary": 0,
+      "tenure": 5,
+      "PhoneService_binary": 0,
+      "PaperlessBilling_binary": 1,
+      "MonthlyCharges": 80.1,
+      "TotalCharges": 400.5
+    }
+  ]
+}

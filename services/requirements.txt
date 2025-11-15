@@ -1,0 +1,8 @@
+fastapi==0.120.1
+uvicorn==0.23.2
+pandas==2.3.3
+numpy==1.26.4
+scikit-learn==1.7.2
+joblib==1.5.2
+python-multipart==0.0.6   # if you have file uploads
+requests==2.32.5

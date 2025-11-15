@@ -1,0 +1,109 @@
+2025-10-31 01:12:37,858 | INFO | Starting up: loading model artifacts...
+2025-10-31 01:12:37,860 | ERROR | Failed to load model artifacts on startup:
+Traceback (most recent call last):
+  File "/home/destutu_soul05/modeliq/services/api.py", line 88, in load_model_and_meta
+    raise FileNotFoundError(f"Required file not found: {p}")
+FileNotFoundError: Required file not found: models/model.pkl
+
+2025-10-31 01:57:44,098 | INFO | Starting up: loading model artifacts...
+2025-10-31 01:57:44,100 | ERROR | Failed to load model artifacts on startup:
+Traceback (most recent call last):
+  File "/home/destutu_soul05/modeliq/services/api.py", line 88, in load_model_and_meta
+    raise FileNotFoundError(f"Required file not found: {p}")
+FileNotFoundError: Required file not found: models/model.pkl
+
+2025-10-31 05:39:00,211 | INFO | Starting up: loading model artifacts...
+2025-10-31 05:39:00,212 | ERROR | Failed to load model artifacts on startup:
+Traceback (most recent call last):
+  File "/home/destutu_soul05/modeliq/services/api.py", line 88, in load_model_and_meta
+    raise FileNotFoundError(f"Required file not found: {p}")
+FileNotFoundError: Required file not found: models/model.pkl
+
+2025-10-31 08:07:27,492 | INFO | Starting up: loading model artifacts...
+2025-10-31 08:07:27,495 | ERROR | Failed to load model artifacts on startup:
+Traceback (most recent call last):
+  File "/home/destutu_soul05/modeliq/services/api.py", line 88, in load_model_and_meta
+    raise FileNotFoundError(f"Required file not found: {p}")
+FileNotFoundError: Required file not found: models/model.pkl
+
+2025-10-31 08:19:25,005 | INFO | Starting up: loading model artifacts...
+2025-10-31 08:19:25,007 | ERROR | Failed to load model artifacts on startup:
+Traceback (most recent call last):
+  File "/home/destutu_soul05/modeliq/services/api.py", line 88, in load_model_and_meta
+    raise FileNotFoundError(f"Required file not found: {p}")
+FileNotFoundError: Required file not found: models/model.pkl
+
+2025-10-31 08:21:03,389 | INFO | Starting up: loading model artifacts...
+2025-10-31 08:21:03,390 | ERROR | Failed to load model artifacts on startup:
+Traceback (most recent call last):
+  File "/home/destutu_soul05/modeliq/services/api.py", line 88, in load_model_and_meta
+    raise FileNotFoundError(f"Required file not found: {p}")
+FileNotFoundError: Required file not found: models/model.pkl
+
+2025-10-31 17:41:56,940 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-10-31 17:42:00,470 | INFO | ✅ Model and metadata loaded successfully. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-10-31 17:42:10,232 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-10-31 17:42:13,602 | INFO | ✅ Model and metadata loaded successfully. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-10-31 17:45:39,605 | INFO | Shutting down - cleanup if needed.
+2025-10-31 17:46:03,005 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-10-31 17:46:05,112 | INFO | ✅ Model and metadata loaded successfully. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-10-31 18:00:34,206 | INFO | Shutting down - cleanup if needed.
+2025-10-31 18:06:08,834 | INFO | Prediction OK. Count=2
+2025-10-31 18:16:20,221 | INFO | Shutting down - cleanup if needed.
+2025-10-31 18:16:25,284 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-10-31 18:16:28,243 | INFO | ✅ Model and metadata loaded successfully. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-10-31 18:16:35,075 | WARNING | HTTP error: {'error': 'missing_features', 'missing': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']}
+2025-10-31 18:16:35,090 | WARNING | HTTP error: {'error': 'missing_features', 'missing': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']}
+2025-10-31 18:16:35,098 | WARNING | HTTP error: {'error': 'missing_features', 'missing': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'PhoneService_binary', 'PaperlessBilling_binary']}
+2025-10-31 18:16:35,119 | INFO | Prediction OK. Count=1
+2025-10-31 18:25:55,989 | INFO | Shutting down - cleanup if needed.
+2025-10-31 18:26:01,861 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-10-31 18:26:03,899 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-10-31 18:29:59,498 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-10-31 18:30:00,983 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-10-31 18:30:01,000 | INFO | Shutting down API...
+2025-10-31 18:30:22,146 | WARNING | HTTP error: {'error': 'missing_features', 'record': 0, 'missing': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']}
+2025-10-31 18:30:22,160 | WARNING | HTTP error: {'error': 'missing_features', 'record': 0, 'missing': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']}
+2025-10-31 18:30:22,169 | WARNING | HTTP error: {'error': 'missing_features', 'record': 0, 'missing': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'PhoneService_binary', 'PaperlessBilling_binary']}
+2025-10-31 18:30:22,200 | INFO | Prediction OK. Count=1
+2025-10-31 18:33:34,860 | INFO | Starting retrain process...
+2025-10-31 18:33:37,586 | INFO | Retrain completed successfully.
+2025-10-31 18:35:46,249 | INFO | Prediction OK. Count=2
+2025-10-31 18:36:41,248 | INFO | Shutting down API...
+2025-11-03 04:34:44,645 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-03 04:34:46,663 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-03 04:34:46,667 | INFO | Shutting down API...
+2025-11-03 04:37:16,604 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-03 04:37:17,281 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-03 04:37:17,284 | INFO | Shutting down API...
+2025-11-03 04:43:33,341 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-03 04:43:35,327 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-04 19:00:34,747 | INFO | Shutting down API...
+2025-11-05 17:48:41,762 | INFO | Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-05 17:48:43,032 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-05 17:52:58,517 | INFO | Shutting down API...
+2025-11-05 18:10:23,150 | INFO | 🚀 Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-05 18:10:23,215 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-05 18:10:23,216 | INFO | scikit-learn version in this environment: 1.2.2
+2025-11-05 18:11:23,994 | INFO | 🛑 Shutting down API... cleaning up resources.
+2025-11-05 18:12:59,268 | INFO | 🚀 Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-05 18:12:59,371 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-05 18:12:59,371 | INFO | scikit-learn version in this environment: 1.7.2
+2025-11-05 18:13:35,271 | INFO | 🛑 Shutting down API... cleaning up resources.
+2025-11-05 20:33:55,896 | INFO | 🚀 Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-05 20:33:56,134 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-05 20:33:56,134 | INFO | scikit-learn version in this environment: 1.7.2
+2025-11-05 20:46:54,891 | INFO | Prediction OK. Count=1
+2025-11-05 21:03:05,651 | INFO | 🛑 Shutting down API... cleaning up resources.
+2025-11-05 21:12:57,798 | INFO | 🚀 Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-05 21:12:58,013 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-05 21:12:58,013 | INFO | scikit-learn version in this environment: 1.7.2
+2025-11-05 21:14:14,707 | INFO | 🛑 Shutting down API... cleaning up resources.
+2025-11-05 21:14:46,974 | INFO | 🚀 Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-05 21:14:47,044 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-05 21:14:47,044 | INFO | scikit-learn version in this environment: 1.7.2
+2025-11-06 04:23:49,812 | INFO | 🛑 Shutting down API... cleaning up resources.
+2025-11-06 19:53:44,730 | INFO | 🚀 Starting up: loading model artifacts from /home/destutu_soul05/modeliq/models...
+2025-11-06 19:53:44,980 | INFO | ✅ Model and metadata loaded. Features: ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges']
+2025-11-06 19:53:44,981 | INFO | scikit-learn version in this environment: 1.7.2
+2025-11-13 03:14:12,679 | INFO | 🛑 Shutting down API... cleaning up resources.

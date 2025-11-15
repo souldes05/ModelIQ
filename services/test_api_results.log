@@ -1,0 +1,10 @@
+2025-10-31 18:16:35 | Missing fields | FAIL | HTTP error: 400 Client Error: Bad Request for url: http://127.0.0.1:8001/predict
+2025-10-31 18:16:35 | Unseen categorical values | FAIL | HTTP error: 400 Client Error: Bad Request for url: http://127.0.0.1:8001/predict
+2025-10-31 18:16:35 | Invalid numeric values | FAIL | HTTP error: 400 Client Error: Bad Request for url: http://127.0.0.1:8001/predict
+2025-10-31 18:16:35 | Valid input | PASS | Response: {'success': True, 'message': 'Prediction completed successfully.', 'predictions': [0], 'feature_order': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges'], 'n': 1, 'probabilities': [[0.7296562163706954, 0.2703437836293046]]}
+2025-10-31 18:16:35 | SUMMARY | INFO | Total tests: 4, Passed: 1, Failed: 3
+2025-10-31 18:30:22 | Missing fields | FAIL | HTTP error: 400 Client Error: Bad Request for url: http://127.0.0.1:8001/predict
+2025-10-31 18:30:22 | Unseen categorical values | FAIL | HTTP error: 400 Client Error: Bad Request for url: http://127.0.0.1:8001/predict
+2025-10-31 18:30:22 | Invalid numeric values | FAIL | HTTP error: 400 Client Error: Bad Request for url: http://127.0.0.1:8001/predict
+2025-10-31 18:30:22 | Valid input | PASS | Response: {'success': True, 'message': 'Prediction completed successfully.', 'predictions': [0], 'feature_order': ['gender_binary', 'SeniorCitizen', 'Partner_binary', 'Dependents_binary', 'tenure', 'PhoneService_binary', 'PaperlessBilling_binary', 'MonthlyCharges', 'TotalCharges'], 'n': 1, 'probabilities': [[0.7296562163706954, 0.2703437836293046]]}
+2025-10-31 18:30:22 | SUMMARY | INFO | Total tests: 4, Passed: 1, Failed: 3
