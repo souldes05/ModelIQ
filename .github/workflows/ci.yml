@@ -20,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.12"   # Match the version you use locally
+          python-version: "3.12"
 
       # Step 3: Install dependencies
       - name: Install dependencies
@@ -29,14 +29,21 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          # Install inner ModelIQ package (editable mode)
+          python -m pip install -e ./ModelIQ
 
-      # Step 4: Run tests
+      # Step 4: Clean pycache (prevents import file mismatch)
+      - name: Clean pycache
+        run: |
+          find . -type d -name "__pycache__" -exec rm -rf {} + || true
+
+      # Step 5: Run tests
       - name: Run tests
         run: |
           source venv/bin/activate
           pytest -q || exit 1
 
-      # Optional Step 5: Run linting
+      # Optional Step 6: Run linting
       - name: Run linting
         run: |
           source venv/bin/activate
